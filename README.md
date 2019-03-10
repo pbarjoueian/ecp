@@ -1,6 +1,14 @@
 # Electricity Consumption Prediction (ECP)
 
-## Table of Content:
+In this project we're going to predict electricity consumption of each user for future periods.
+
+Here is some info and stats about the data:
+* **Number of unique users**: 124675
+* **Total number of records**: 5601193
+
+Also you can find `headers.xslx` file in `dataset` directory to find some more descriptions about the header names or features.
+
+# Table of Content:
  * [Installation](#installation)
 
 
