@@ -30,7 +30,7 @@ def create_model(xTrain, xTest, yTrain, yTest, name):
 
 
 def main():
-    df = pd.read_csv("../dataset/dbBills_cleaned.csv")
+    df = pd.read_csv("dataset/dbBills_cleaned.csv")
 
     df = df.drop(df.columns[[0]], axis=1)
     df = df[~df.isin([np.nan, np.inf, -np.inf]).any(1)]
