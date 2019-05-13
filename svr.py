@@ -63,7 +63,7 @@ def main():
     xTrain, xTest, yTrain, yTest = train_test_split(X, y_high, test_size = 0.1, random_state = 0)
     create_model(xTrain, xTest, yTrain, yTest, 'High')
     print("High SVM Model has been created!")
-    xTrain, xTest, yTrain, yTest = train_test_split(X, y_low, test_size = 0.1, random_state = 0)create_model(xTrain, xTest, yTrain, yTest)
+    xTrain, xTest, yTrain, yTest = train_test_split(X, y_low, test_size = 0.1, random_state = 0)
     create_model(xTrain, xTest, yTrain, yTest, 'Low')
     print("Low SVM Model has been created!")
 
